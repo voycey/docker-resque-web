@@ -1,13 +1,20 @@
 # Resque Web in Docker 
 ##(With Resque Cleaner & Resque Sliders)
 
+Need a GUI to monitor your Redis installation but freak out when you read the instructions for setting up resque-web, why do you need a framework and a ruby env and all these gem's etc etc etc - especially if you haven't even looked at Ruby in your life?
+
+This will sort you out - in 1 command you can point this at your Redis server and have a GUI that will allow you to monitor, manage and most importantly (the reason I started this) the ability to requeue failed jobs easily!
+
 ## Getting the container
+Obviously you need to have docker installed:
 
-To download the container run
+	sudo apt-get install docker.io
+	
+To download the container run (as root or sudo)
 
-    docker pull voycey/resque-web
+	docker pull voycey/resque-web
 
-Or clone this into a directory and issue
+Or clone this into a directory and issue (as root or sudo)
 
 	docker build -t resque-web resque-web
 
