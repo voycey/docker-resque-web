@@ -1,5 +1,5 @@
 # Resque Web in Docker 
-##(With Resque Cleaner)
+##(With Resque Cleaner & Resque Sliders)
 
 ## Getting the container
 
@@ -28,5 +28,4 @@ To run as a background service:
     docker run -d --restart=always --name resque-web -p 5678:5678 voycey/resque-web -r redis://your-ip-here:6379 /resque-web.rb
 
 #TODO:
-	Replace debian/jessie base with Phusion Baseimage
 	Find some more nice stuff to extend resque-web with
