@@ -1,7 +1,7 @@
 # Resque Web GUI
 ##(With Resque Cleaner & Resque Sliders)
 
-Need a GUI to monitor your Redis installation but freak out when you read the instructions for setting up resque-web, why do you need a framework and a ruby env and all these gem's etc etc etc - especially if you haven't even looked at Ruby in your life?
+Need a GUI to monitor your Redis installation but freak out when you read the instructions for setting up resque-web? why do you need a framework? and a ruby env? and all these gem's etc etc etc? - especially if you haven't even looked at Ruby in your life - it can be overwhelming.
 
 This will sort you out - in 1 command you can point this at your Redis server and have a GUI that will allow you to monitor, manage and most importantly (the reason I started this) the ability to requeue failed jobs easily!
 
