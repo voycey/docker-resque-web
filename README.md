@@ -33,3 +33,5 @@ To run it as a one off:
 To run as a background service:
 
     docker run -d --restart=always --name resque-web -p 5678:5678 voycey/resque-web -r redis://your-ip-here:6379 /resque-web.rb
+
+Then it can be accessed by going to http://your-server-ip:5678
